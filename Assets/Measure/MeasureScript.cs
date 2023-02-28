@@ -4,7 +4,7 @@ using Microsoft.MixedReality.Toolkit.Input;
 
 namespace LTA.Holoapp
 {
-    public class Test : MonoBehaviour, IMixedRealityPointerHandler
+    public class MeasureScript : MonoBehaviour, IMixedRealityPointerHandler
     {
         public GameObject firstPin = default;
         public GameObject secondPin = default;
